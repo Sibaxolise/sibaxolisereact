@@ -1,10 +1,18 @@
 import React from 'react';
+import '../styles/styles.css';
 
-const Projects = () => (
-  <div>
-    <h1>My Projects</h1>
-    <p>This is the projects page.</p>
-  </div>
-);
+function Project() {
+    return (
+        <section id="Project">
+            <hr />
+            <h1>Projects</h1>
+            <main>
+                <section className="projects-container">
+                    {/* Include projects here */}
+                </section>
+            </main>
+        </section>
+    );
+}
 
-export default Projects;
+export default Project;
